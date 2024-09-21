@@ -12,7 +12,7 @@ Welcome to **Maze Game**, an exciting adventure where players navigate through a
 
 ## 📺 Demo Video
 
-[![Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/maxresdefault.jpg)](https://youtu.be/GKmmAStua-A?si=9-S11YBn6k-NVCba)
+[![Watch the video](https://img.youtube.com/vi/https://youtu.be/GKmmAStua-A?si=9-S11YBn6k-NVCba/maxresdefault.jpg)](https://youtu.be/GKmmAStua-A?si=9-S11YBn6k-NVCba)
 
 *Click the image above to watch the demo on YouTube!*
 
