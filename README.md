@@ -21,21 +21,26 @@ Welcome to **Maze Game**, an exciting adventure where players navigate through a
 1. Clone the repository:
    ```bash
    git clone https://github.com/Zreechxnn/maze-game.git
-Navigate to the project directory:
+   ```
 
-```bash
-Copy code
-cd maze-game
-Compile the project (if using C++):
+2. Navigate to the project directory:
+   ```bash
+   cd maze-game
+   ```
 
-```bash
-Copy code
-g++ main.cpp -o maze_game
-Run the game:
+3. Compile the project (if using C++):
+   ```bash
+   g++ main.cpp -o maze_game
+   ```
 
-```bash
-Copy code
-./maze_game
+4. Run the game:
+   ```bash
+   ./maze_game
+   ```
+
+---
+
+
 💡 How to Play
 Use the arrow keys to navigate through the maze.
 Reach the exit point as quickly as possible.
