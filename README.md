@@ -30,7 +30,7 @@ Welcome to **Maze Game**, an exciting adventure where players navigate through a
 
 3. Compile the project (if using C++):
    ```bash
-   g++ main.cpp -o maze_game
+   g++ main.cpp -lSDL2 -lSDL2_ttf -lSDL2_image -o maze_game
    ```
 
 4. Run the game:
