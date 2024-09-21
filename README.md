@@ -23,17 +23,17 @@ Welcome to **Maze Game**, an exciting adventure where players navigate through a
    git clone https://github.com/Zreechxnn/maze-game.git
 Navigate to the project directory:
 
-bash
+```bash
 Copy code
 cd maze-game
 Compile the project (if using C++):
 
-bash
+```bash
 Copy code
 g++ main.cpp -o maze_game
 Run the game:
 
-bash
+```bash
 Copy code
 ./maze_game
 💡 How to Play
