@@ -3,9 +3,11 @@
 ![Maze Game Logo](https://h.top4top.io/p_318671n6g1.png)
 
 ## 🚀 Introduction
+
 Welcome to **Maze Game**, an exciting adventure where players navigate through a maze to reach the exit! This game tests your problem-solving skills and provides an engaging experience.
 
 ### ✨ Features
+
 - **Challenging Levels**: Multiple maze layouts with increasing difficulty.
 - **Timer**: Keep track of your time to improve your skills.
 - **Score System**: Earn points based on the time taken to solve the maze.
@@ -19,27 +21,24 @@ Welcome to **Maze Game**, an exciting adventure where players navigate through a
 ## 🛠️ Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Zreechxnn/maze-game.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd maze-game
    ```
 
-3. Compile the project (if using C++):
-   ```bash
-   g++ main.cpp -lSDL2 -lSDL2_ttf -lSDL2_image -o maze_game
-   ```
+3. Compile the project:
 
-4. Run the game:
    ```bash
-   ./maze_game
+   ./run.sh
    ```
 
 ---
-
 
 💡 How to Play
 Use the arrow keys to navigate through the maze.
@@ -50,6 +49,5 @@ Other Game Project
 Puzzle Game
 🤝 Contributing
 We welcome contributions! Please fork this repository and submit a pull request for any enhancements or bug fixes.
-
 
 Thank you for visiting our project! Don't forget to give it a ⭐ if you like it!
