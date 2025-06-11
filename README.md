@@ -15,7 +15,7 @@ Try the live version now:
 - 🏆 **Score System** based on performance  
 - 🖥️ **Fullscreen Mode** for better immersion  
 
-## 📺 Demo Video
+## 📺 Demo Video (pra update)
 [![Maze Game Demo](https://img.youtube.com/vi/GKmmAStua-A/maxresdefault.jpg)](https://youtu.be/GKmmAStua-A?si=9-S11YBn6k-NVCba)  
 ➡️ *Click the image to watch the gameplay demo on YouTube!*
 
