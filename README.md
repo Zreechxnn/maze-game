@@ -1,8 +1,6 @@
 
 # 🧭 Maze Game - WebAssembly Edition
 
-![Maze Game Logo](https://h.top4top.io/p_318671n6g1.png)
-
 ## 🚀 Introduction
 **Maze Game** is a 3D first-person maze navigation game built in **C++** and compiled to **WebAssembly** using **Emscripten**. Play directly in your browser with smooth and immersive controls!
 
