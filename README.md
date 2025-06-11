@@ -1,6 +1,4 @@
-Berikut adalah versi ulang yang lebih rapi dan profesional dari `README.md` untuk proyek `maze-game` kamu:
 
-````markdown
 # 🧭 Maze Game - WebAssembly Edition
 
 ![Maze Game Logo](https://h.top4top.io/p_318671n6g1.png)
@@ -99,9 +97,4 @@ open http://localhost:8000
 
 ```bash
 chmod +x run.sh
-```
-
-```
-
-Jika kamu ingin versi dalam bahasa Indonesia atau tambahan badge CI/CD, saya bisa bantu juga.
 ```
