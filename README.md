@@ -1,53 +1,98 @@
-# maze-game
 
-![Maze Game Logo](https://h.top4top.io/p_318671n6g1.png)
+# 🧭 Maze Game - WebAssembly Edition
 
 ## 🚀 Introduction
+**Maze Game** is a 3D first-person maze navigation game built in **C++** and compiled to **WebAssembly** using **Emscripten**. Play directly in your browser with smooth and immersive controls!
 
-Welcome to **Maze Game**, an exciting adventure where players navigate through a maze to reach the exit! This game tests your problem-solving skills and provides an engaging experience.
+## 🎮 Play Online
+Try the live version now:  
+🔗 [zreechxnn.github.io/maze-game](https://zreechxnn.github.io/maze-game/)
 
-### ✨ Features
+## ✨ Features  
+- ⚡ **Powered by WebAssembly** for high performance  
+- 🧠 **Challenging Maze Levels**  
+- ⏱️ **Timer System** to track progress  
+- 🏆 **Score System** based on performance  
+- 🖥️ **Fullscreen Mode** for better immersion  
 
-- **Challenging Levels**: Multiple maze layouts with increasing difficulty.
-- **Timer**: Keep track of your time to improve your skills.
-- **Score System**: Earn points based on the time taken to solve the maze.
+## 📺 Demo Video (pra update)
+[![Maze Game Demo](https://img.youtube.com/vi/GKmmAStua-A/maxresdefault.jpg)](https://youtu.be/GKmmAStua-A?si=9-S11YBn6k-NVCba)  
+➡️ *Click the image to watch the gameplay demo on YouTube!*
 
-## 📺 Demo Video
+## 🛠️ Installation & Local Setup
 
-[![Watch the video](https://img.youtube.com/vi/https://youtu.be/GKmmAStua-A?si=9-S11YBn6k-NVCba/maxresdefault.jpg)](https://youtu.be/GKmmAStua-A?si=9-S11YBn6k-NVCba)
+### 🔧 Quick Start (recommended):
+```bash
+git clone https://github.com/Zreechxnn/maze-game.git
+cd maze-game
+./run.sh
+````
 
-*Click the image above to watch the demo on YouTube!*
+### 🛠 Manual Setup:
 
-## 🛠️ Installation
+```bash
+python3 -m http.server
+# Then open in your browser: http://localhost:8000
+```
 
-1. Clone the repository:
+> Ensure you have Python 3 installed.
 
-   ```bash
-   git clone https://github.com/Zreechxnn/maze-game.git
-   ```
+**Goal:** Reach the maze exit as fast as possible — avoid dead ends and beat your best time!
 
-2. Navigate to the project directory:
+## 🧩 Game Mechanics
 
-   ```bash
-   cd maze-game
-   ```
+* 🕒 **Time Tracking** to improve speedruns
+* 📈 **Level Difficulty** increases with progress
+* 🧮 **Score System** rewards efficient navigation
 
-3. Compile the project:
+## 🤝 Contributing
 
-   ```bash
-   ./run.sh
-   ```
+We welcome contributions from the community:
+
+1. Fork the repository
+2. Create a new branch:
+   `git checkout -b feature/your-feature`
+3. Commit your changes:
+   `git commit -am 'Add some feature'`
+4. Push your branch:
+   `git push origin feature/your-feature`
+5. Create a Pull Request (PR)
+
+## 🔗 Related Projects
+
+* [3D WebGL Maze Generator](https://github.com/example/maze-generator)
+* [WebAssembly Game Framework](https://github.com/example/wasm-game-framework)
+* [First-Person WebGL Engine](https://github.com/example/webgl-engine)
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more info.
 
 ---
 
-💡 How to Play
-Use the arrow keys to navigate through the maze.
-Reach the exit point as quickly as possible.
-Avoid dead ends and track your score!
-🔗 Related Projects
-Other Game Project
-Puzzle Game
-🤝 Contributing
-We welcome contributions! Please fork this repository and submit a pull request for any enhancements or bug fixes.
+Thanks for checking out **Maze Game**! If you enjoy it, don't forget to ⭐ the repo!
 
-Thank you for visiting our project! Don't forget to give it a ⭐ if you like it!
+---
+
+## 🖥 `run.sh` Script Example
+
+```bash
+#!/bin/bash
+# Start a local server and open the game in browser
+
+python3 -m http.server &
+
+sleep 2
+
+# For macOS
+open http://localhost:8000
+
+# Uncomment this line for Linux:
+# xdg-open http://localhost:8000
+```
+
+> Don’t forget to make it executable:
+
+```bash
+chmod +x run.sh
+```
