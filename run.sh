@@ -1,9 +1,13 @@
-emcc *.cpp -o maze_game.html \
-  -s USE_SDL=2 \
-  -s USE_SDL_TTF=2 \
-  -s USE_SDL_IMAGE=2 \
-  -s SDL2_IMAGE_FORMATS='["png"]' \
-  --preload-file assets \
-  -s ALLOW_MEMORY_GROWTH=1 \
-  -s ASYNCIFY \
-  -O3
+#!/bin/bash
+# Start a local server and open the game in browser
+
+python3 -m http.server &
+
+sleep 2
+
+# For macOS
+open http://localhost:8000
+
+# Uncomment this line for Linux:
+
+xdg-open http://localhost:8000
