@@ -1,15 +1,18 @@
-// maze.cpp
 #include "header/maze.h"
 #include <algorithm>
 #include <ctime>
 #include <iostream>
+#include <random>
+#include <stack>
 
 Maze::Maze(int level) : grid(MAZE_WIDTH, std::vector<int>(MAZE_HEIGHT, 1))
 {
     int maze_size = std::min(INITIAL_LEVEL_SIZE + level * LEVEL_INCREASE, MAZE_WIDTH);
     GenerateMaze(maze_size, level);
-    player.x = startX;
-    player.y = startY;
+    player1.x = startX;
+    player1.y = startY;
+    player2.x = startX;
+    player2.y = startY;
 }
 
 void Maze::InitializeGrid(int maze_size)
