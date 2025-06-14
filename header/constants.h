@@ -4,7 +4,7 @@
 
 constexpr int SCREEN_WIDTH = 600;
 constexpr int SCREEN_HEIGHT = 600;
-constexpr int PANEL_HEIGHT = 250;  
+constexpr int PANEL_HEIGHT = 275;
 constexpr int WINDOW_HEIGHT = SCREEN_HEIGHT + PANEL_HEIGHT;
 
 constexpr int MAZE_WIDTH = 25;
